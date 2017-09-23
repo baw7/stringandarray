@@ -3,6 +3,8 @@
 <body>
 
 <?php
+<h1> A R R A Y </h1><hr>
+
 <h1> Reverse Array </h1><br>
 $a=array("a"=>"Red","b"=>"Yellow","c"=>"Blue");
 print_r(array_reverse($a));
@@ -52,12 +54,58 @@ echo array_shift($b)."<br>";
 print_r ($b);
 <hr>
 
-<h1>End<h1><br>
+<h1>End</h1><br>
 $a=array("purple","black");
 array_push($a,"blue","yellow");
 print_r($a);
 <hr>
 
+<h1> S T R I N G </h1> <hr>
+
+<h1>Slashes</h1><br>
+$str = addcslashes("Brianna Wong!","W");
+echo($str); 
+<hr>
+
+<h1>Splits</h1><br>
+$str = "blue", "red", "yellow";
+echo chunk_split($str,1,".");
+<hr>
+
+<h1>Monetary</h1><br>
+$number = 123456.78;
+setlocale(LC_MONETARY,"en_US");
+echo money_format("Price is  %i", $number);
+<hr>
+
+<h1>Length</h1><br>
+$str = "Brianna Wong";
+echo str_pad($str,10,".");
+<hr>
+
+<h1>Word Counts</h1><br>
+echo str_word_count("Brianna Wong");
+<hr>
+
+<h1>Character Length</h1><br>
+echo strlen("Brianna");
+<hr>
+
+<h1>Reverse</h1><br>
+echo strrev("Brianna Wong");
+<hr>
+
+<h1>Lowercase</h1><br>
+echo strtolower("BRIANNA WONG");
+<hr>
+
+<h1>Partial</h1><br>
+echo substr("Brianna",2);
+<hr>
+
+<h1>Uppercase</h1><br>
+echo ucwords("The quick brown fox jumps over the lazy dog");
+<hr>
 ?>
 </body>
 </html>
