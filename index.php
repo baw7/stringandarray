@@ -3,8 +3,6 @@
 <body>
 
 <?php
-ini_set('display_errors', 'On');
-error_reporting (E_ALL);
 <h1> A R R A Y </h1><hr>
 
 <h1> Reverse Array </h1><br>
