@@ -27,8 +27,7 @@ echo(array_product($a));?>
 
 <h1>5. Random</h1><br><?php
 $a=array("red","blue","yellow","purple");
-$random_keys=array_rand($a,3);
-echo $a[$random_keys[0]]."<br>";
+$random_keys=array_rand($a,3);echo $a[$random_keys[0]]."<br>";
 echo $a[$random_keys[1]];?> 
 <hr>
 
@@ -106,4 +105,3 @@ echo substr("Brianna",2);?>
 echo ucwords("The quick brown fox jumps over the lazy dog");?>
 <hr>
 
-</body>
