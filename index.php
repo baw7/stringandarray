@@ -9,6 +9,8 @@ print_r(array_reverse($a));?>
 <h1>2. Uppercase</h1>
 <?php
 $color=array("Red"=>"1","Blue"=>"2","Yellow"=>"3");
-print_r(array_change_key_case($age,CASE_UPPER));?>
+print_r(array_change_key_case($color,CASE_UPPER));?>
+<hr>
+
 <hr>
 
